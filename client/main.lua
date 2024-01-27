@@ -53,8 +53,6 @@ RegisterCommand('cycleproximity', function()
 	MumbleSetTalkerProximity(newvoice)
 end, false)
 
-exports['qbr-keybinds']:CreateKeyBind(0xA5BDCD3C, {command = 'cycleproximity'})
-
 -------------------------------------------------------------------
 ---- THREADS
 -------------------------------------------------------------------
